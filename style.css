@@ -259,12 +259,15 @@ header nav button:hover{
 }
 .three .child-btn1{
     background-color: rgb(84, 144, 245);
+    border: 1px solid rgb(84, 144, 245);
 }
 .three .child-btn2{
     background-color: rgb(9, 161, 92);
+    border: 1px solid rgb(9, 161, 92);
 }
 .three .child-btn3{
     background-color: rgb(255, 194, 57);
+    border: 1px solid rgb(255, 194, 57);
 }
 .button2:hover{
     color: rgb(0, 106, 80);
