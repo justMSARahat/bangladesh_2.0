@@ -1,0 +1,352 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Work Sans", serif;
+}
+body{
+    background-color: rgb(245, 245, 245);
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.parent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+/*Frameworks*/
+.primary-text{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+}
+.button-primary{
+
+}
+.button-primary{
+    color: white;
+    background-color: rgb(0, 106, 80);
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+    border: 1px solid rgb(0, 106, 80);
+    border-radius: 5px;
+    padding: 10px 35px;
+}
+.button-primary:hover{
+    color: rgb(0, 106, 80);
+    background-color: white;
+
+}
+
+
+/* Nav bar */
+header{
+    width: 1480px;
+    margin: auto;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 24px 0;
+}
+header nav a{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+header nav button{
+    color: rgb(0, 106, 80);
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+
+    border: 1px solid rgb(0, 106, 80);
+    border-radius: 5px;
+    padding: 10px 30px;
+}
+header nav button:hover{
+    color: white;
+
+    background-color: rgb(0, 106, 80);
+
+    border-radius: 5px;
+    padding: 10px 30px;
+}
+
+
+/* Section one */
+.one{
+    width: 1280px;
+    margin: auto;
+    background-color: rgb(198, 228, 214);
+    border-radius: 10px;
+    padding: 80px 100px;
+
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 80px;
+}
+.one .left p{
+    color: rgba(14, 14, 14, 0.5);
+    font-family: Fira Sans;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 15px;
+}
+.one .left h2{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 67px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 24px;
+}
+
+
+/* Section two */
+.two{
+    margin-top: 80px;
+    width: 1480px;
+    margin: auto;
+
+}
+.two h2{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 32px;
+}
+.two .parent{
+    margin-bottom: 80px;
+}
+.two .child{
+    width: 302px;
+    padding: 24px;
+    background-color: white;
+    border-radius: 10px;
+}
+.two .child img{
+    margin-bottom: 24px;
+    width: 50px;
+    height: 54px;
+}
+.two .child h3{
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 10px;
+}
+.two .child p{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+/* Section three */
+.three{
+    margin-top: 80px;
+    width: 1480px;
+    margin: auto;
+
+}
+.three h2{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 24px;
+}
+.three p{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.three .parent{
+    margin: 32px 0;
+}
+.three .child{
+    padding: 32px;
+    border-radius: 10px;
+}
+.three .child-1{
+    background-color: rgba(84, 144, 245, 0.2);
+}
+.three .child-2{
+    background-color: rgb(198, 228, 214);
+}
+.three .child-3{
+    background-color: rgb(247, 235, 207);
+}
+.three .child img{
+    margin-bottom: 24px;
+    width: 50px;
+    height: 54px;
+}
+.three .child h3{
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.three .child p{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+.button2{
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+
+    border-radius: 8px;
+    padding: 11px 19px;
+    border: none;
+}
+.three .child-btn1{
+    background-color: rgb(84, 144, 245);
+}
+.three .child-btn2{
+    background-color: rgb(9, 161, 92);
+}
+.three .child-btn3{
+    background-color: rgb(255, 194, 57);
+}
+.button2:hover{
+    color: rgb(0, 106, 80);
+    border: 1px solid rgb(0, 106, 80);
+
+    background-color: white;
+}
+
+
+/* four qutation */
+.four{
+    margin-top: 80px;
+    width: 1432px;
+    margin: auto;
+    background-color: white;
+    padding: 48px 24px;
+    margin-bottom: 80px;
+
+
+
+
+    background-image: url(assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position-x: 24px;
+    background-position-y: 24px;
+}
+.four P{
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 10px;
+}
+.four h2{
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+
+    margin-bottom: 4px;
+}
+.four .desc{
+    color: rgba(14, 14, 14, 0.6);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+
+
+
+/* Section three */
+.five{
+    margin-top: 80px;
+    width: 1480px;
+    margin: auto;
+
+}
+.five h2{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 24px;
+}
+.five p{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 32px;
+}
